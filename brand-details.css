@@ -92,7 +92,7 @@ header h1 a span {
    font-style: italic;
    letter-spacing: 1px;
    color: #fff;
-   padding: 10px 0px 5px 10px;
+/*   padding: 10px 0px 5px 20px;*/
 } 
 
 #je-taime {
@@ -164,24 +164,19 @@ header div nav a {
 }
 
 /* ----------------------------------------- */
-/* HOME-PAGE (BRIDAL IMAGES) (will be a slide show) */
+/*  h2 */
 /* ----------------------------------------- */
 
-.bridal-images {
-    position: relative;
-	margin: 3% auto;
-}
-
-.bridal-images a {
-	text-decoration: none;
-}
-
-.bridal-pic {
-    width: 300px;
-    margin: 3%;
-	margin-right: 5%;
-    display: inline-block;
-	box-shadow: 5px 5px 20px rgba(77, 6, 44, 0.51);
+h2 {
+	font-size: 30px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin: 3% 10% 2% 10%;
+	padding: 3%;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	letter-spacing: 2px;
+	word-spacing: 2px;
 }
 
 /* ----------------------------------------- */
@@ -215,117 +210,6 @@ input[type="submit"]:hover {
     position: relative;
 }
 
-/* ----------------------------------------- */
-/* ABOUT-PAGE (MEET THE ARTISTS) */
-/* ----------------------------------------- */
-h2 {
-	font-size: 30px;
-	font-weight: 200;
-	text-transform: uppercase;
-	margin: 3% 10% 2% 10%;
-	padding: 3%;
-	color: #fff;
-	border-bottom: 1px solid #fff;
-	letter-spacing: 2px;
-	word-spacing: 2px;
-}
-
-.artists {
-	
-	background-color: rgba(114, 32, 76, 0.42);
-    font-size: 70%;
-    font-style: normal;
-	letter-spacing: 2px;
-	line-height: 21px;
-    font-family: 'Lato', sans-serif;
-    color: #fff;
-    margin: 3% auto 3% auto;
-    padding: 1% 3% 1% 1%;
-    display: inline-block;
-	
-    
-}
-
-.artists > img {
-	width: 250px;
-	float: left;
-	margin: 10px;
-	
-}
-
-.artists > p {
-	margin: 10px;
-	font-size: 14px;
-} 
-
-/* ----------------------------------------- */
-/* ABOUT-PAGE TESTIMONIALS */
-/* ----------------------------------------- */
-
-/* Keep but don't know yet how to style it.
-blockquote {
-	padding: 2%;
-	font-style: italic;
-	font-size: 14px;
-	color: #fff;
-	line-height: 145%;
-	position: relative;
-	
-}
-
-blockquote:before {
-	content: "\201C";
-	font-size: 400%;
-	display: block;
-	position: absolute;
-	top: -2px;
-	left: -2px;
-	
-}
-
-cite {
-	font-size: 90%;
-	margin-top: 25px;
-	display: inline-block;
-	
-}
-
-cite img {
-	height: 45px;
-	border-radius: 50%;
-	margin-right: 10px;
-	vertical-align: middle;
-	
-}
-*/ 
-
-/* ----------------------------------------- */
-/* CONTACT-PAGE (CONTACT FORM) */
-/* ----------------------------------------- */
-.section-form {
-	width: 80%;
-	margin: 0 auto; 
-	
-}
-
-input[type=text],
-input[type=email],
-textarea {
-	width: 50%;
-	padding: 7px;
-	border-radius: 3px;
-	border: 1px solid #7e7a7a;
-	
-}
-
-textarea {
-	height: 100%;
-}
-
-label, input, textarea {
-	color: #fff;
-	margin: 20px;
-}
 /* ----------------------------------------- */
 /*  FOOTER */
 /* ----------------------------------------- */
@@ -370,6 +254,3 @@ footer > .row:last-child {
 .footer-nav li:last-child {
 	margin-right: 0;
 }
-
-
-
