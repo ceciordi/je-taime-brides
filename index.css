@@ -1,0 +1,416 @@
+/**
+ * Light pink: #fbd3e9
+ * Dark pink: #bb377d
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+	font: lighter 20px "Lato", "Arial", "sans-serif";
+    background: linear-gradient(rgba(187, 55, 125, 0.55), rgba(251, 211, 233, 0.21)), url(img/white-tulle.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#index-page,
+#about-page,
+#contact-page
+{
+	min-height: 74vh;
+}
+
+#index-page,
+#about-page {
+    text-align: center;
+	
+}
+
+/* ----------------------------------------- */
+/* HEADER */
+/* ----------------------------------------- */
+body > * {
+    padding: 0 34px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table; /* or display: block; */
+    clear: both;
+}
+
+.font-family-lato {
+	font-family: 'Lato';
+}
+.font-weight-normal {
+	font-weight: normal;
+}
+
+header .font-size-small {
+	font-size: 14px;
+}
+header h1 {
+	font-size: 100%;
+    color: #fff;
+}
+header h1,
+header h1 a,
+header h1 span {
+	letter-spacing: 2px;
+	word-spacing: 10px;
+	text-transform: uppercase;
+    font-family: 'Barrio', cursive;
+}
+header h1 a {
+    display: inline-block;
+    font-size: 180%;
+    font-weight: 300;
+	color: #FFF;
+    margin-top: 10px;
+	text-decoration: none;
+}
+
+header h1 a span:first-child {
+    font-weight: 200;
+}
+header h1 a span:nth-child(4), 
+header h1 a span:nth-child(5) {
+	font-size: 14px;
+}
+header h1 a span {
+    display: inline-block;
+}
+
+#tagline {
+   font-size: 110%;
+   font-weight: 200;
+   font-style: italic;
+   letter-spacing: 1px;
+   color: #fff;
+/*   padding: 10px 0px 5px 20px;*/
+} 
+
+#je-taime {
+    text-transform: lowercase;
+    font-weight: 100;
+	text-shadow: 5px 5px 20px rgba(77, 6, 44, 0.51);
+}
+
+header > div:first-child {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    margin-top: 18px;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 34px;
+}
+header nav ul li:last-child {
+    margin-right: 0;
+}
+
+header nav a:link,
+header nav a:visited {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 90%;
+    text-decoration: none;
+    padding: 8px 0;
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+
+}
+
+header nav a:hover,
+header nav a:active {
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+
+header nav li a.no-border-bottom:active,
+header nav li a.no-border-bottom:hover {
+    border-bottom: 2px solid transparent;
+}
+
+.ion-social-facebook, .ion-social-instagram {
+    color: #fff;
+}
+
+header div nav a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+/* ----------------------------------------- */
+/* BRIDAL IMAGES (will be a slide show) */
+/* ----------------------------------------- */
+
+.bridal-images {
+    position: relative;
+	margin: 3% auto;
+}
+
+.bridal-images a {
+	text-decoration: none;
+}
+
+.bridal-pic {
+    width: 300px;
+    margin: 3%;
+	margin-right: 5%;
+    display: inline-block;
+	box-shadow: 5px 5px 20px rgba(77, 6, 44, 0.51);
+}
+
+/* ----------------------------------------- */
+/* BUTTON */
+/* ----------------------------------------- */
+
+.btn,
+input[type="submit"] {
+    display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 90%;
+	font-weight: 300;
+	text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 32px;
+    margin: 20px;
+    color: #fff;
+	border: none;
+	background: linear-gradient(rgba(254, 186, 225, 0.79), rgba(236, 44, 129, 0.65));
+	box-shadow: 5px 5px 20px rgba(77, 6, 44, 0.51); 
+    transition: transform 0.2s, opacity 0.2s, color 0.2s, background 0.2s;
+}
+
+.btn:hover,
+input[type="submit"]:hover {
+    background: linear-gradient(rgba(236, 44, 129, 0.65), rgba(254, 186, 225, 0.79));
+	transform: scale(1.1, 1.1);
+}
+
+.cta {
+    position: relative;
+}
+
+/* ----------------------------------------- */
+/* MEET THE ARTISTS */
+/* ----------------------------------------- */
+h2 {
+	font-size: 30px;
+	font-weight: 200;
+	text-transform: uppercase;
+	margin: 3% 10% 2% 10%;
+	padding: 3%;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+}
+
+.artists {
+/*    max-width: 610px;*/
+/*    background-color: rgba(187, 55, 125, 0.42);*/
+	background-color: rgba(114, 32, 76, 0.42);
+    font-size: 70%;
+    font-style: normal;
+	letter-spacing: 2px;
+	line-height: 21px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 3% auto 3% auto;
+    padding: 1% 3% 1% 1%;
+    display: inline-block;
+	
+    
+}
+
+/* Keep for now, but broken at the moment */
+
+/* .artists p:first-child:first-letter {
+    float: left;
+    font-weight: lighter;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+} */
+
+.artists > img {
+	width: 250px;
+	float: left;
+	margin: 10px;
+	
+}
+
+ .artists > p {
+	margin: 10px;
+	font-size: 14px;
+	
+} 
+
+
+
+/* Keep but don't know yet how to style it.
+blockquote {
+	padding: 2%;
+	font-style: italic;
+	font-size: 14px;
+	color: #fff;
+	line-height: 145%;
+	position: relative;
+	
+}
+
+blockquote:before {
+	content: "\201C";
+	font-size: 400%;
+	display: block;
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	
+}
+
+cite {
+	font-size: 90%;
+	margin-top: 25px;
+	display: inline-block;
+	
+}
+
+cite img {
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 10px;
+	vertical-align: middle;
+	
+}
+*/ 
+
+/* ----------------------------------------- */
+/*  HAIRSTYLES */
+/* ----------------------------------------- */
+/* .hairstyles {
+	list-style: none;
+	width: 100%;
+	}
+.hairstyles li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.hair-photo {
+	width: 100%;
+	margin: 0;
+}
+
+.hair-photo img {
+	width: 100%;
+	height: auto;
+}
+*/
+
+/* ----------------------------------------- */
+/* CONTACT FORM */
+/* ----------------------------------------- */
+.section-form {
+	width: 80%;
+	margin: 0 auto; 
+	
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	width: 50%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #7e7a7a;
+	
+}
+
+textarea {
+	height: 100%;
+}
+
+label, input, textarea {
+	color: #fff;
+	margin: 20px;
+}
+/* ----------------------------------------- */
+/*  FOOTER */
+/* ----------------------------------------- */
+
+footer {
+	background-color: rgba(114, 32, 76, 0.42);
+	color: #fff;
+	margin-bottom: 1%;
+	padding: 40px;
+}
+
+footer > p {
+	float: left;
+	margin-right: 20px;
+	font-size: 70%;
+}
+
+footer > .row:last-child {
+	display: inline-block;
+	width: auto;
+	float: right;
+}
+
+.footer-nav {
+	list-style: none;
+	float: right;
+	
+}
+
+.footer-nav li {
+	display: inline-block;
+	margin-right: 20px;
+	
+}
+
+.footer-nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 70%;
+}
+
+.footer-nav li:last-child {
+	margin-right: 0;
+}
+
+/* .footer-nav li a:hover,
+.footer-nav li a:active {
+	color: #46054e;
+} */
+
+
+
