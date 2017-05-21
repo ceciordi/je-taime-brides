@@ -1,0 +1,24 @@
+.section-form {
+	width: 80%;
+	margin: 0 auto; 
+	
+}
+
+input[type=text],
+input[type=email],
+textarea {
+	width: 50%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid #7e7a7a;
+	
+}
+
+textarea {
+	height: 100%;
+}
+
+label, input, textarea {
+	color: #fff;
+	margin: 20px;
+}

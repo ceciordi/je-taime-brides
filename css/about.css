@@ -1,0 +1,27 @@
+.artists {
+	
+	background-color: rgba(114, 32, 76, 0.42);
+    font-size: 70%;
+    font-style: normal;
+	letter-spacing: 2px;
+	line-height: 21px;
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    margin: 3% auto 3% auto;
+    padding: 1% 3% 1% 1%;
+    display: inline-block;
+	
+    
+}
+
+.artists > img {
+	width: 250px;
+	float: left;
+	margin: 10px;
+	
+}
+
+.artists > p {
+	margin: 10px;
+	font-size: 14px;
+} 
